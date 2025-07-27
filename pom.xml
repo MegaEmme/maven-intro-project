@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.lessons.java</groupId>
+    <artifactId>maven-intro-project</artifactId>
+    <!-- Di base in version troviamo: 1.0-SNAPSHOT, cambiamolo con una versione fittizia, tipo 0.3 -->
+    <version>0.3</version>
+    <!-- Qua invece inseriamo la versione di Java che stiamo utilizzando (comando terminale: java -version, qui stiamo usando la 24) -->
+    <properties>
+        <maven.compiler.source>24</maven.compiler.source>
+        <maven.compiler.target>24</maven.compiler.target>
+    </properties>
+    <!-- Qua vado ad aggiungere le dependencies (le librerie che ho scaricato)-->
+    <dependencies>
+    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency> 
+    <!-- Da qua in poi andiamo ad aggiungere tutte le librerie di cui necessitiamo -->
+    </dependencies>
+    <!-- Poi c'è il discorso ***** <build> -> <plugins> -> <plugin> -> <configuration> ***** -->
+
+</project>
