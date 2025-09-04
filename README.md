@@ -13,7 +13,7 @@ Lo useremo direttamente da VSCode tramite l'estensione Java Extension Pack, ma p
 
 ==> Selezionare la destination folder
 
-Una volta inizializzato il progetto, Maven creerà in automatico il file POM.xml e le sottocartelle di src specificate tramite il GroupId.
+Una volta inizializzato il progetto, Maven creerà in automatico il file pom.xml e le sottocartelle di src specificate tramite il GroupId.
 
 ==> Nel file pom.xml vado ad aggiungere la version (terza dependency)
 ## Importare librerie esterne
